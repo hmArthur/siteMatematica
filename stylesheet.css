@@ -79,6 +79,10 @@ header {
   margin-right: 2rem;
 }
 
+.pessoas { 
+  flex-direction: row;
+}
+
 ._header {
   display: flex;
   flex-direction: row;
@@ -161,7 +165,8 @@ li {
 .slider {
   display: block;
   height: 293px;
-  width: 600px;
+  max-width: 80%;
+  width: 500px;
   margin: auto;
   margin-top: 20px;
   position: relative;
@@ -213,3 +218,53 @@ li {
   visibility: visible;
   z-index: 10;
 }
+
+h4 {
+  font-size: 5rem;
+}
+
+
+@media screen and (max-width: 756px) {
+  .content_header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .secao_1 h2 {
+    font-size: 2rem;
+  }
+
+  .secao_1_paragrafo {
+    font-size: 1rem;
+  }
+
+  ._lista_header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  ._header {
+    flex-direction: column;
+    margin: auto;
+  }
+
+  ._header img {
+    margin: auto;
+    width: 6rem;
+   
+  }
+
+  .pessoas {
+    flex-direction: column;
+    
+}
+
+  .pessoas img {
+    padding: 1rem;
+  }
+
+  h4 {
+    font-size: 2rem;
+  }
+}
+
