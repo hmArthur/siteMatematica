@@ -224,6 +224,7 @@ h4 {
 }
 
 
+
 @media screen and (max-width: 756px) {
   .content_header {
     flex-direction: column;
