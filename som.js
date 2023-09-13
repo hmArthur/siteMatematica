@@ -4,7 +4,7 @@ function playAudio(url) {
 }
 
 document.addEventListener("keydown", function(e){
-	if (e.keyCode == 27){
+	if (e.keyCode == 65){
 		e.preventDefault();
 		playAudio('keya.wav')
 	}
