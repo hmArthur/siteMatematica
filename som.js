@@ -3,6 +3,7 @@ function playAudio(url, key) {
     beat.play();
 
 	const tecla = document.querySelector("."+key);
+	console.log(key)
 	tecla.style.backgroundColor = "red"
 }
 
