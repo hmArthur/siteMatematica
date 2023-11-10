@@ -8,7 +8,7 @@ function playAudio(url, key) {
 	
 	setTimeout(function(){ 
 		tecla.style.backgroundColor = "grey"
-	}, 3000);
+	}, 500);
 }
 
 document.addEventListener("keydown", function(e){
