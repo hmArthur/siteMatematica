@@ -27,7 +27,7 @@ document.addEventListener("keydown", function(e){
     //d
     if (e.keyCode == 68){
 		e.preventDefault();
-		playAudio('keyd.wav', 'keye')
+		playAudio('keyd.wav', 'keyd')
 	}
 
     //e
