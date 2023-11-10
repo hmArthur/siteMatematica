@@ -1,6 +1,9 @@
-function playAudio(url) {
+function playAudio(url, key) {
     let beat = new Audio(url);
     beat.play();
+
+	const tecla = document.querySelector(key);
+	tecla.style.backgroundColor = "red"
 }
 
 document.addEventListener("keydown", function(e){
